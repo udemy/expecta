@@ -28,7 +28,7 @@
 @property(nonatomic, readonly) EXPExpect *willNot;
 @property(nonatomic, readonly) EXPExpect *(^after)(NSTimeInterval timeInterval);
 
-- (instancetype)initWithActualBlock:(id)actualBlock testCase:(id)testCase lineNumber:(int)lineNumber fileName:(const char *)fileName NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithActualBlock:(id)actualBlock testCase:(id)testCase lineNumber:(int)lineNumber fileName:(const char *)fileName;
 + (EXPExpect *)expectWithActualBlock:(id)actualBlock testCase:(id)testCase lineNumber:(int)lineNumber fileName:(const char *)fileName;
 
 - (void)applyMatcher:(id<EXPMatcher>)matcher;
@@ -40,6 +40,6 @@
   EXPExpect *_expectation;
   SEL _selector;
 }
-- (instancetype)initWithExpectation:(EXPExpect *)expectation selector:(SEL)selector NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithExpectation:(EXPExpect *)expectation selector:(SEL)selector;
 @property (nonatomic, readonly, copy) void (^dispatch)(void);
 @end

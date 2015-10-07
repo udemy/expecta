@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E9ACDF0B13B2DD520010F4D7"
                BuildableName = "libExpecta.a"
-               BlueprintName = "libExpecta"
+               BlueprintName = "Expecta"
                ReferencedContainer = "container:Expecta.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -58,7 +58,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E9ACDF0B13B2DD520010F4D7"
             BuildableName = "libExpecta.a"
-            BlueprintName = "libExpecta"
+            BlueprintName = "Expecta"
             ReferencedContainer = "container:Expecta.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -80,7 +80,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E9ACDF0B13B2DD520010F4D7"
             BuildableName = "libExpecta.a"
-            BlueprintName = "libExpecta"
+            BlueprintName = "Expecta"
             ReferencedContainer = "container:Expecta.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -98,7 +98,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E9ACDF0B13B2DD520010F4D7"
             BuildableName = "libExpecta.a"
-            BlueprintName = "libExpecta"
+            BlueprintName = "Expecta"
             ReferencedContainer = "container:Expecta.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
